@@ -1082,7 +1082,7 @@ having action != 'none'
 insert into RegulatorActionStream;
 ```
 
-This Siddhi Application generates an alert if we have switch off the regulator before the temperature reaches 12 degrees.  
+This Siddhi Application generates an alert if we have switched off the regulator before the temperature reaches 12 degrees.  
 
 ```sql
 define stream RegulatorStateChangeStream(deviceID long, roomNo int, tempSet double, action string);
