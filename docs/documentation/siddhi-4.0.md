@@ -1545,7 +1545,7 @@ The `condition` element specifies the basis on which events are selected to be d
 When specifying the condition, table attributes should be referred to with the table name.
  
 To execute delete for specific output event types, use the `current events`, `expired events` or the `all events` keyword with `for` as shown
-in the syntax. For more information, see [output event type](http://127.0.0.1:8000/documentation/siddhi-4.0/#output-event-types).
+in the syntax. For more information, see [output event type](#output-event-types).
 
 !!! note 
     Table attributes must be always referred to with the table name as follows: 
@@ -1586,7 +1586,7 @@ When specifying the `condition`, table attributes must be referred to with the t
 You can use the `set` keyword to update selected attributes from the table. Here, for each assignment, the attribute specified in the left must be the table attribute, and the one specified in the right can be a stream/table attribute a mathematical operation, or other. When the `set` clause is not provided, all the attributes in the table are updated.
    
 To execute an update for specific output event types use the `current events`, `expired events` or the `all events` keyword with `for` as shown
-in the syntax. For more information, see [output event type](http://127.0.0.1:8000/documentation/siddhi-4.0/#output-event-types).
+in the syntax. For more information, see [output event type](#output-event-types).
 
 !!! note 
     Table attributes must be always referred to with the table name as shown below:
@@ -1631,7 +1631,7 @@ the right hand side attribute can be stream/table attribute, mathematical
  operations or other. When `set` clause is not provided all attributes in the table will be updated.  
  
 To execute update upon specific output event types use the `current events`, `expired events` or the `all events` keyword with `for` as shown
-in the syntax. To understand more refer [output event type](http://127.0.0.1:8000/documentation/siddhi-4.0/#output-event-types) section.
+in the syntax. To understand more refer [output event type](#output-event-types) section.
 
 !!! note 
     Table attributes should be always referred to with the table name as `<table name>.<attibute name>`.
